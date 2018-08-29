@@ -56,9 +56,7 @@ public class SimpleScannerActivity extends AppCompatActivity implements ZBarScan
 
 
                            if(code.equals("BANANO")) {
-
-
-                               Toast.makeText(this, fullMessage, Toast.LENGTH_SHORT).show();
+                               Toast.makeText(this, fullMessage+"modificaco", Toast.LENGTH_SHORT).show();
                            }
     }
 }
